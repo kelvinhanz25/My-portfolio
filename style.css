@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-red{
+    color: #773210;
+}
+.dark{
+    color: #1E1E1E;
+}
+body{
+    background-color: black;
+    font-family: Poppins;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+.hero{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero-1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-1 h1{
+    font-size: 106.58px;
+}
+.hero-1 p{
+    font-size: 15px;
+}
+.nav-1 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 83px;
+    margin-top: -183px;
+    position: sticky;
+    right: 44px;
+    width: 45%;
+    padding: 10px;
+}
+.nav-1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.nav-1{
+    color: red;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+}
+.contactme-top{
+    text-align: center;
+}
+.conatiner{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input ,textarea{
+    width: 404px;
+    height: 49px;
+    background-color: #1E1E1E;
+}
+textarea{
+    resize: none;
+}
+.nameko{
+    letter-spacing: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: 
+        typing 2s ,
+        cursor .3s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing {
+    from {width: 0}
+}
