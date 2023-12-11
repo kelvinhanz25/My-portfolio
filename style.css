@@ -153,3 +153,44 @@ textarea{
         flex-direction: row;
     }
 }
+@media screen and (max-width: 1280px ) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+    .hero-1 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .hero-1 p {
+        font-size: 15px;
+    }
+    .hero-1 h1 {
+        font-size: 106.58px;
+    }
+    .nameko {
+        letter-spacing: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        animation: typing 2s, cursor .3s step-end infinite alternate;
+    }
+    .nav-1 ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin-left: 60px;
+        margin-top: 0px;
+        position: sticky;
+        right: 60px;
+        width: 60%;
+        padding: 10px;
+    }
+}
