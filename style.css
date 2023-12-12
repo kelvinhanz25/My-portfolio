@@ -74,7 +74,6 @@ nav {
 .nav-1{
     color: red;
     position: sticky;
-    position: -webkit-sticky;
     top: 10px;
 }
 .contactme-top{
