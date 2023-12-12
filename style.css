@@ -154,14 +154,14 @@ textarea{
     }
 }
 @media screen and (max-width: 1280px ) {
-    nav {
+    /* nav {
         display: flex;
         justify-content: space-between;
         padding: 10px;
         position: sticky;
         top: 0;
         z-index: 5;
-    }
+    } */
     .hero-1 {
         width: 50%;
         display: flex;
