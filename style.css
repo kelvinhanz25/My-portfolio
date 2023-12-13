@@ -75,6 +75,7 @@ nav {
     color: red;
     position: sticky;
     top: 10px;
+    z-index: 100;
 }
 .contactme-top{
     text-align: center;
